@@ -68,7 +68,7 @@ public class CatalogoPeliculasImpl implements ICatalogoPeliculas {
             else{
                  datos.crear(NOMBRE_RECURSO);   
             }
-            } catch (AccesoDatosEx ex) {
+         } catch (AccesoDatosEx ex) {
                    
                System.out.println("Error al iniciar Catalogo de Peliculas");
              ex.printStackTrace();

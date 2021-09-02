@@ -69,7 +69,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
             linea = entrada.readLine();
             var indice = 1; //para inicializar y encontrar en qué línea se encuentra la pelicula que estamos buscando
             while (linea != null){
-                if (buscar != null && buscar.equalsIgnoreCase(linea)) {
+                if (buscar != null && buscar.equalsIgnoreCase(linea)) { 
                     resultado = "Pelicula" + " " + linea + " " + "encontrada en el índice\n " + " " + indice;
                     break;
                 }

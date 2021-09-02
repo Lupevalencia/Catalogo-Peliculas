@@ -40,7 +40,7 @@ public class CatalogoPeliculasPresentacion {
                     break;
                 case 0:
                     System.out.println("Hasta pronto!!");
-                    break;
+                    break; // faltaba
                 default:
                     System.out.println("Opcion no reconocida");
                     break;
