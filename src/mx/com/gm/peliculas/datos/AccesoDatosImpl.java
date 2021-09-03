@@ -92,7 +92,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
     public void crear(String nombreRecurso) throws AccesoDatosEx {
         var archivo = new File(nombreRecurso);
         try {
-            var salida = new BufferedReader(new FileReader(archivo));
+            var salida = new PrintWriter(new FileWriter(archivo));
             salida.close();
             System.out.println("Se ha creado el archivo");
             
